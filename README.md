@@ -22,7 +22,7 @@ URL: /api/twofactor/send-code
 
 Method: POST
 
-Request Body: { "phone": "0987654321" }
+Request Body: { "phone": "9876543212" }
 
 Response (Success): { "message": "Code sent successfully." }
 
@@ -34,7 +34,7 @@ URL: /api/twofactor/verify-code
 
 Method: POST
 
-Request Body: { "phone": "1234567890", "code": "123456" }
+Request Body: { "phone": "9876543212", "code": "123456" }
 
 Response (Success): { "message": "Code verified successfully." }
 
